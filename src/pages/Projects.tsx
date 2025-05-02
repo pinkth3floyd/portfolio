@@ -6,20 +6,20 @@ import { cn } from "@/lib/utils";
 const projects: ProjectData[] = [
   {
     id: "1",
-    title: "Neural Nexus",
-    description: "AI-powered data visualization dashboard with real-time analytics",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2070",
-    tags: ["React", "ThreeJS", "AI"],
+    title: "Everest Travels",
+    description: "Everest Travels is an travels and tours company based in Australia with branch in Kathmandu ,Nepal.",
+    image: "https://www.everesttravel.com.au/uploads/0000/11/2023/06/02/everest-pic.png",
+    tags: ["Laravel", "SMTP", "MYSQL"],
     liveUrl: "#",
     githubUrl: "#",
-    fullDescription: "Neural Nexus is an AI-powered dashboard that transforms complex data into intuitive 3D visualizations. It features real-time analytics processing and machine learning algorithms that identify patterns and trends.",
+    fullDescription: "Using the site user can view different tour packages available in Nepal or can book a flightfor cities around the world. Once a ticket or package is booked it the message gets pushed to admin using SMTP protocol where admin views the request and processes the request manually",
     features: [
-      "Interactive 3D data visualization",
-      "Real-time data processing",
-      "Pattern recognition algorithms",
-      "Customizable dashboard layouts"
+      "Interactive tour package visualization",
+      "Manage content form admin",
+      "Flight Search API",
+      "Easy for booking"
     ],
-    techStack: ["React", "Three.js", "TensorFlow.js", "WebGL", "D3.js"]
+    techStack: ["Laravel", "SMTP", "MYSQL"]
   },
   {
     id: "2",
