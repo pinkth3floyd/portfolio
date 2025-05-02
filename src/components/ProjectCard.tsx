@@ -49,9 +49,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
           <div className="absolute inset-0 bg-gradient-to-b from-cyber-purple/10 to-transparent h-[1px] w-full opacity-0 group-hover:opacity-100 group-hover:animate-scanline"></div>
         </div>
         
-        <h3 className="font-orbitron text-xl font-bold text-cyber-cyan mb-2 group-hover:text-cyber-purple transition-colors">
+        <a
+        href={project.liveUrl}
+        className="font-orbitron text-xl font-bold text-cyber-cyan mb-2 group-hover:text-cyber-purple transition-colors">
           {project.title}
-        </h3>
+        </a>
         
         <p className="text-cyber-lavender/70 mb-4 flex-grow">
           {project.description}
