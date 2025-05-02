@@ -131,7 +131,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             {project.githubUrl && (
               <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                 <CyberButton variant="outline" size="sm">
-                  View Code
+                  Open Live URL
                 </CyberButton>
               </a>
             )}

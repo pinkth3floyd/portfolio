@@ -14,7 +14,7 @@ const projects = [
     description: 'Online collection of web tools used for conversion and seo',
     image: 'https://webconvertertools.com/storage/uploads/Untitled%20design(3).png',
     tags: ['Laravel', 'MySQL', 'Ghost Script','LibreOffice',"SMTP","Stripe","Oracle Cloud"],
-    link: 'https://webconvertertools.com/'
+    githubUrl: 'https://webconvertertools.com/'
   },
   {
     id: "2",
@@ -22,7 +22,7 @@ const projects = [
     description: 'CRM Software that can be used to track office operations',
     image: 'https://www.golocrm.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoWhite.10a0e67b.png&w=256&q=75',
     tags: ['NextJS',"Tailwind", 'Typescript', 'SQlite',"Vercel","React","Google Maps","Firebase"],
-    link: 'https://golocrm.com'
+    githubUrl: 'https://golocrm.com'
   },
   {
     id: "3",
@@ -30,7 +30,7 @@ const projects = [
     description: 'News Portal from Kathmandu Nepal which publishes news in Nepali Language',
     image: 'https://raidmedia.net/uploads/20240610065227-rm-logo-final.png',
     tags: ['Laravel', 'MYSQL', 'SMTP'],
-    link: 'https://raidmedia.net/'
+    githubUrl: 'https://raidmedia.net/'
   }
 ];
 
