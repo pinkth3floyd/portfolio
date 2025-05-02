@@ -54,6 +54,23 @@ const projects: ProjectData[] = [
       "Subscription Based"
     ],
     techStack: ["Laravel", "MySQL", "Flutter", "REST API", "Firebase", "Google Maps"]
+  },
+  {
+    id: "4",
+    title: "Photo Fix",
+    description: "Photo Fix is a photo editing app where we can edit and save photos and videos",
+    image: "https://lh3.googleusercontent.com/ZNo5kexx4JFjkx77Vc2wTQAOYV0UV0_sHYjY5sb8wXpQ97HLGqW7kLZnLjm60_Ax7EKW",
+    tags: ["UI/UX", "Animation", "Design"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/PrakashNiraula/photofix",
+    fullDescription: "Photofix is a photo and video editing tool for android devices which shows admob ads for monetization. This app contains feature like edit photo, crop photo, trim videos, compress photo and make collage features. It also has free photos collection within the app. This app also can be used to apply filters on photos which is achieved by multiplying pixels value with some constant matrix.",
+    features: [
+      "Easy to use",
+      "Edit Photos and Videos",
+      "Apply Filters",
+      "Free to use"
+    ],
+    techStack: ["Flutter", "REST API", "Firebase"]
   }
 ];
 // const projects:ProjectData[]=[]
