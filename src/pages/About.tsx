@@ -47,6 +47,8 @@ const About: React.FC = () => {
         description={pageContent.description}
         keywords={pageContent.keywords}
       />
+
+      <div></div>
       
       <div className="container mx-auto px-4 py-16 relative">
         {/* Cyberpunk background elements */}
