@@ -54,57 +54,6 @@ const projects: ProjectData[] = [
       "Cyberpunk-inspired form elements"
     ],
     techStack: ["React", "Framer Motion", "CSS", "GSAP"]
-  },
-  {
-    id: "4",
-    title: "Neon Beats",
-    description: "Audio visualization app that reacts to music with neon light effects",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&q=80&w=2071",
-    tags: ["Audio", "Animation", "WebAudio"],
-    liveUrl: "#",
-    githubUrl: "#",
-    fullDescription: "Neon Beats transforms music into stunning visual experiences. It analyzes audio in real-time and generates synchronized neon light animations that pulse and flow with the rhythm and frequencies of the music.",
-    features: [
-      "Real-time audio analysis",
-      "Frequency-based visualizations",
-      "Custom neon light effects",
-      "Music upload and streaming"
-    ],
-    techStack: ["WebAudio API", "Canvas", "React", "Tone.js"]
-  },
-  {
-    id: "5",
-    title: "Synthwave Portfolio",
-    description: "Retro-futuristic portfolio template with 80s synthwave aesthetics",
-    image: "https://images.unsplash.com/photo-1614790871259-2da9c8b5c03e?auto=format&fit=crop&q=80&w=2574",
-    tags: ["Web", "Design", "Template"],
-    liveUrl: "#",
-    githubUrl: "#",
-    fullDescription: "Synthwave Portfolio is a customizable template that combines 80s retro aesthetics with modern web technologies. It features grid landscapes, neon typography, and smooth scrolling effects perfect for creative professionals.",
-    features: [
-      "Synthwave visual aesthetic",
-      "Parallax scrolling effects",
-      "Interactive grid landscapes",
-      "Customizable sections"
-    ],
-    techStack: ["React", "SCSS", "GSAP", "Locomotive Scroll"]
-  },
-  {
-    id: "6",
-    title: "Virtual Reality Lab",
-    description: "WebVR experiment showcasing interactive scientific simulations",
-    image: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=2070",
-    tags: ["VR", "WebXR", "Education"],
-    liveUrl: "#",
-    githubUrl: "#",
-    fullDescription: "Virtual Reality Lab brings scientific concepts to life through immersive WebVR simulations. Users can interact with molecular structures, explore physics principles, and conduct virtual experiments in an intuitive 3D environment.",
-    features: [
-      "WebXR-powered experiences",
-      "Interactive scientific simulations",
-      "Cross-platform compatibility",
-      "Educational content integration"
-    ],
-    techStack: ["A-Frame", "Three.js", "WebXR API", "React"]
   }
 ];
 // const projects:ProjectData[]=[]
