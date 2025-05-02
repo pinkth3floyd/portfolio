@@ -135,13 +135,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
                 </CyberButton>
               </a>
             )}
-            {project.liveUrl && (
+            {/* {project.liveUrl && (
               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                 <CyberButton variant="primary" size="sm">
                   Live Demo
                 </CyberButton>
               </a>
-            )}
+            )} */}
           </DialogFooter>
         </DialogContent>
       </Dialog>

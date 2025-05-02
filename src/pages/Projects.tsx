@@ -11,7 +11,7 @@ const projects: ProjectData[] = [
     image: "https://www.everesttravel.com.au/uploads/0000/11/2023/06/02/everest-pic.png",
     tags: ["Laravel", "SMTP", "MYSQL"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://www.everesttravel.com.au/",
     fullDescription: "Using the site user can view different tour packages available in Nepal or can book a flightfor cities around the world. Once a ticket or package is booked it the message gets pushed to admin using SMTP protocol where admin views the request and processes the request manually",
     features: [
       "Interactive tour package visualization",
