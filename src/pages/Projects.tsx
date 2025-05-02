@@ -71,6 +71,23 @@ const projects: ProjectData[] = [
       "Free to use"
     ],
     techStack: ["Flutter", "REST API", "Firebase"]
+  },
+  {
+    id: "4",
+    title: "PokhreliRestaurantCore",
+    description: "PokhreliRestaurantCore is a desktop application used for tracking hotel data.",
+    image: "https://yopoho.com/tourism/tourismpics/1269t3.jpg",
+    tags: ["UI/UX", "Animation", "Design"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/PrakashNiraula/restaurantcore",
+    fullDescription: "This is a desktop application that can be used to create and manage restaurant data. Here one can manage products staffs guests products ingredients and expenses. It used amazon rds for storing data which are then rendered on windows forms.",
+    features: [
+      "Easy to use",
+      "Manage Income and Expenses",
+      "Manage staffs and products and rooms ",
+      "Create and manage invoices and guest entry"
+    ],
+    techStack: ["C#", "Windows Forms", "WPF","Amazon RDS"]
   }
 ];
 // const projects:ProjectData[]=[]
