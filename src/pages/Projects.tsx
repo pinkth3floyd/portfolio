@@ -19,41 +19,41 @@ const projects: ProjectData[] = [
       "Flight Search API",
       "Easy for booking"
     ],
-    techStack: ["Laravel", "SMTP", "MYSQL"]
+    techStack: ["Laravel", "SMTP", "MYSQL","CSS"]
   },
   {
     id: "2",
-    title: "Cyber City Map",
-    description: "Interactive 3D map of a futuristic city with glowing neon elements",
-    image: "https://images.unsplash.com/photo-1502780831116-d682dd6fcd51?auto=format&fit=crop&q=80&w=2080",
-    tags: ["3D", "WebGL", "Interactive"],
+    title: "Wise Choice Mortgage",
+    description: "Real state mortgage and broker company based in Australia.",
+    image: "https://wisechoicemortgage.com.au/uploads/20230829043931-logo.png",
+    tags: ["Laravel", "SMTP", "Interactive"],
     liveUrl: "#",
-    githubUrl: "#",
-    fullDescription: "Cyber City Map is an immersive 3D exploration of a futuristic cyberpunk cityscape. Users can navigate through neon-lit streets, interact with buildings, and discover hidden easter eggs throughout the experience.",
+    githubUrl: "https://wisechoicemortgage.com.au/",
+    fullDescription: "Wise choice mortgage and finance is a company that deals with home loans situated in Australia. It is an portfolio site for the company. In this site user can book a consultation or request for property valuation. This site also contains borrowing calculator, repayment calculator and stamp duty calculator.",
     features: [
-      "Fully explorable 3D environment",
-      "Dynamic lighting effects",
-      "Interactive buildings and elements",
-      "Custom shader effects"
+      "Content Management System",
+      "Borrowing , Repayment and Stamp Duty Calculator",
+      "Blogs and Posts",
+      "Custom property evaluation "
     ],
-    techStack: ["Three.js", "WebGL", "GLSL", "React"]
+    techStack: ["Laravel","Oracle Cloud", "SMTP","CSS","MYSQL", "BANK API"]
   },
   {
     id: "3",
-    title: "Quantum Interface",
-    description: "Experimental UI components inspired by quantum computing interfaces",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020",
+    title: "Foodie Nepal",
+    description: "Foodie Nepal is a food delivery service provider based in Kathmandu Nepal",
+    image: "https://admin.foodienepal.com/storage/app/public/business/2024-03-20-65fabff9942cd.png",
     tags: ["UI/UX", "Animation", "Design"],
     liveUrl: "#",
-    githubUrl: "#",
-    fullDescription: "Quantum Interface is a library of futuristic UI components inspired by quantum computing interfaces. It features advanced animation techniques and unique interaction patterns that push the boundaries of web interfaces.",
+    githubUrl: "https://foodienepal.com",
+    fullDescription: "Foodie Nepal is an online food ordering app where one can order food form different restaurants around the city. Once the order is placed using user app the order is pushed to specific restaurant app using Firebase notifications. Once restaurant is ready to send the food, they can view nearby online delivery boy and dispatch the order. Users can view real time location of delivery boy.",
     features: [
-      "Advanced animation system",
-      "Experimental interaction patterns",
-      "Holographic display components",
-      "Cyberpunk-inspired form elements"
+      "Quick Food Ordering",
+      "Beautiful user interface",
+      "Live Food Tracking",
+      "Subscription Based"
     ],
-    techStack: ["React", "Framer Motion", "CSS", "GSAP"]
+    techStack: ["Laravel", "MySQL", "Flutter", "REST API", "Firebase", "Google Maps"]
   }
 ];
 // const projects:ProjectData[]=[]
