@@ -10,16 +10,15 @@ const Contact: React.FC = () => {
   const pageContent = content.contact;
   const { toast } = useToast();
   const [chat_id,setchat_id]=useState('');
-  const [token,settoken]=useState('7502621910:AAE7Oprc4riHdI0O2eU_W0ZT6w4i7_36xeQ');
-  
+ 
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
     message: ''
   });
-  const botToken = '8088442395:AAGVsqnpsm33wliSfmRisbxl2qger85jQ1U';
-            const chatId = '1721592109';
+  const botToken = process.env.botToken;
+  const chatId = process.env.chatId;
 
 
   
