@@ -115,9 +115,9 @@ export default function Privacy() {
           If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
         </p>
         <div className="mt-4 p-4 bg-cyber-background/50 border border-cyber-purple/30 rounded-md">
-          <p className="text-cyber-lavender/90">Email: privacy@cyberdomain.com</p>
-          <p className="text-cyber-lavender/90">Address: Neo Tokyo, Sector 7</p>
-          <p className="text-cyber-lavender/90">Beacon ID: PRVC-X4RT-Z9Y1</p>
+          <p className="text-cyber-lavender/90">Email: pinkth3floyd@gmail.com</p>
+          <p className="text-cyber-lavender/90">Address: Chabahil, Kathmandu8 Nepal</p>
+          <p className="text-cyber-lavender/90">Phone : +9779869804695 </p>
         </div>
       </div>
     </div>
