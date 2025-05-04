@@ -9,6 +9,8 @@ const Contact: React.FC = () => {
   const { content } = useContent();
   const pageContent = content.contact;
   const { toast } = useToast();
+  const [chat_id,setchat_id]=useState('');
+  const [token,settoken]=useState('7502621910:AAE7Oprc4riHdI0O2eU_W0ZT6w4i7_36xeQ');
   
   const [formData, setFormData] = useState({
     name: '',
@@ -16,6 +18,11 @@ const Contact: React.FC = () => {
     subject: '',
     message: ''
   });
+  const botToken = '8088442395:AAGVsqnpsm33wliSfmRisbxl2qger85jQ1U';
+            const chatId = '1721592109';
+
+
+  
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -27,10 +34,23 @@ const Contact: React.FC = () => {
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message sent",
-      description: "I'll get back to you soon!",
+  
+
+    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(JSON.stringify(formData))}`)
+    .then(response => {
+      console.log(response);
+      toast({
+        title: "Message sent",
+        description: "I'll get back to you soon!",
+      });
+     
+    })
+    .catch(error => {
+        console.error('Error sending message:', error);
+       
     });
+
+  
     setFormData({
       name: '',
       email: '',
