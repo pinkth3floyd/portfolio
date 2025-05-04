@@ -5,7 +5,7 @@ import { CyberButton } from '../components/CyberButton';
 import { useToast } from '../hooks/use-toast';
 import { GlitchText } from '../components/GlitchText';
 import { config } from 'dotenv';
-
+import Axios from 'axios';
 const Contact: React.FC = () => {
   // config();
   const { content } = useContent();
@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
   
 
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(JSON.stringify(formData))}`)
+    Axios.get(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(JSON.stringify(formData))}`)
     .then(response => {
       console.log(response);
       toast({
