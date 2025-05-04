@@ -4,8 +4,10 @@ import SEO from '../components/SEO';
 import { CyberButton } from '../components/CyberButton';
 import { useToast } from '../hooks/use-toast';
 import { GlitchText } from '../components/GlitchText';
+import { config } from 'dotenv';
 
 const Contact: React.FC = () => {
+  // config();
   const { content } = useContent();
   const pageContent = content.contact;
   const { toast } = useToast();
@@ -17,8 +19,9 @@ const Contact: React.FC = () => {
     subject: '',
     message: ''
   });
-  const botToken = process.env.botToken;
-  const chatId = process.env.chatId;
+  const botToken = '8088442395:AAGVsqnpsm33wliSfmRisbxl2qger85jQ1U';
+
+  const chatId =  '1721592109';
 
 
   
@@ -47,7 +50,7 @@ const Contact: React.FC = () => {
     .catch(error => {
         console.error('Error sending message:', error);
        
-    });
+     });
 
   
     setFormData({
