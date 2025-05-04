@@ -73,6 +73,23 @@ const projects: ProjectData[] = [
     techStack: ["Flutter", "REST API", "Firebase"]
   },
   {
+    id: "5",
+    title: "GoloCrm Mobile",
+    description: "It is a mobile app for GOLOCRM wher user can view rosters and add attendences.",
+    image: "https://www.golocrm.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoWhite.10a0e67b.png&w=256&q=75",
+    tags: ["UI/UX", "Animation", "Design","Mobile"],
+    liveUrl: "#",
+    githubUrl: "https://play.google.com/store/apps/details?id=com.zeptosky.golocrm",
+    fullDescription: "It is a mobile app for https://golocrm.com where users are assigned shifts and sites where user need to be inside defined radius in the site to manage attendances",
+    features: [
+      "View Roster",
+      "Add Attendences",
+      "Add Logbooks",
+      "Add Notes"
+    ],
+    techStack: ["Flutter", "REST API", "Firebase","Google Maps API"]
+  },
+  {
     id: "4",
     title: "PokhreliRestaurantCore",
     description: "PokhreliRestaurantCore is a desktop application used for tracking hotel data.",
