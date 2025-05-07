@@ -124,23 +124,6 @@ const projects: ProjectData[] = [
       "Create and manage invoices and guest entry"
     ],
     techStack: ["C#", "Windows Forms", "WPF","Amazon RDS"]
-  },
-  {
-    id: "7",
-    title: "Block Chain Visualizer",
-    description: "It is the project showcasing my own implementation of blockchain technology.",
-    image: "https://i0.wp.com/epthinktank.eu/wp-content/uploads/2018/09/shutterstock_1054622195.jpg?fit=1000%2C1000&ssl=1",
-    tags: ["UI/UX", "Web", "Design"],
-    liveUrl: "#",
-    githubUrl: "https://blockchain-dusky-three.vercel.app/",
-    fullDescription: "This is a sample implementation of the blockchain technology implemented using type script and react. It has features like transaction mining and block view.",
-    features: [
-      "Block Chain Implementation",
-      "Transactions",
-      "Blocks and mining",
-      "Block Chain Visualizer"
-    ],
-    techStack: ["TypeScript", "NextJS", "Supabase","Vercel"]
   }
 ];
 // const projects:ProjectData[]=[]
