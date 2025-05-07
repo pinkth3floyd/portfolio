@@ -124,6 +124,24 @@ const projects: ProjectData[] = [
       "Create and manage invoices and guest entry"
     ],
     techStack: ["C#", "Windows Forms", "WPF","Amazon RDS"]
+  },
+  ,
+  {
+    id: "7",
+    title: "TeleBot",
+    description: "A telegram bot with ecommerce feature built inside telegram chat",
+    image: "https://www.alphr.com/wp-content/uploads/2024/10/best-telegram-bots.jpg",
+    tags: ["Backend", "Automation", "Core Ecommerce"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/PrakashNiraula/telebot",
+    fullDescription: "Telebot is a online telegram bot with ecommerce features build inside telegram chat. Users are able to view products ,add to cart , buy and online payment integration .",
+    features: [
+      "Easy to use",
+      "Product View and BUy",
+      "User Profile and Order History",
+      "Automated digitial product delivery"
+    ],
+    techStack: ["NodeJs", "Telegram", "Bot","MySql", "Coinbase Payment"]
   }
 ];
 // const projects:ProjectData[]=[]
